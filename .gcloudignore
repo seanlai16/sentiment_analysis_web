@@ -1,0 +1,25 @@
+# Exclude git files
+.git
+.gitignore
+
+# Exclude IDE files
+.idea/
+*.iml
+.vscode/
+
+# Exclude Flutter/Dart specific files
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub/
+
+# Include build/web directory
+!build/web/
+
+# Exclude other build directories
+build/ios/
+build/android/
+build/linux/
+build/macos/
+build/windows/ 
